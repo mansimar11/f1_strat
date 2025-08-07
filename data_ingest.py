@@ -7,7 +7,7 @@ import os
 import time
 
 # -------- CONFIG --------
-DB_CONNECTION_STRING = 'postgresql://neondb_owner:npg_6lYhEpGDCmW1@ep-orange-cloud-a1q1wej3-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require'
+
 CACHE_DIR = '.fastf1_cache'
 TABLE_NAME = 'f1_live_data'
 START_YEAR = 2022
