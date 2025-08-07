@@ -1,3 +1,5 @@
+
+from dotenv import load_dotenv
 import fastf1
 import pandas as pd
 from sqlalchemy import create_engine
@@ -8,6 +10,13 @@ import time
 
 # -------- CONFIG --------
 
+<<<<<<< HEAD
+=======
+load_dotenv()
+DB_CONNECTION_STRING = os.getenv("DB_CONNECTION_STRING")
+print("Loaded DB_CONNECTION_STRING:", DB_CONNECTION_STRING)
+
+>>>>>>> 09f0ccc (Use environment variables for DB connection)
 CACHE_DIR = '.fastf1_cache'
 TABLE_NAME = 'f1_live_data'
 START_YEAR = 2022

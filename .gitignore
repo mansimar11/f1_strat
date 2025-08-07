@@ -17,3 +17,6 @@ fastf1_cache/
 
 # Ignore system files
 .DS_Store
+
+
+.env
