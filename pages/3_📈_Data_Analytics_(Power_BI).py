@@ -26,6 +26,6 @@ st.markdown("---")
 st.markdown(
     """
     📂 The original `.pbix` file for this dashboard can be found on 
-    [GitHub](https://github.com/mansimar11/f1_strat/blob/main/F1%20DASHBOARD.pbix).
+    [GitHub](https://github.com/GauravKapoor007).
     """
 )
